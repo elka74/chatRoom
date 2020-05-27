@@ -4,6 +4,11 @@
 <?import javafx.scene.layout.*?>
 
 <VBox alignment="center" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <TextArea fx:id="textArea" editable="false" prefHeight="272.0" prefWidth="550.0" VBox.vgrow="NEVER" />
+    <TextField fx:id="textField" onAction="#textEnter" prefHeight="70.0" prefWidth="550.0" />
+    <GridPane alignment="CENTER_RIGHT" prefHeight="50.0" prefWidth="550.0">
+        <Button fx:id="btn" alignment="CENTER_RIGHT" contentDisplay="CENTER" onAction="#btnClick" prefHeight="42.0" prefWidth="99.0" text="ENTER" />
+    </GridPane>
 
 
 </VBox>
